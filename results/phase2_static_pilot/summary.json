@@ -1,0 +1,431 @@
+{
+  "summary": {
+    "git_commit": "474b0bc",
+    "total_episodes": 20,
+    "successes": 19,
+    "success_rate": 0.95,
+    "collisions": 0
+  },
+  "episodes": [
+    {
+      "episode_id": 1,
+      "start": [
+        -3.8,
+        0.0,
+        0.0
+      ],
+      "goal": [
+        3.8,
+        0.0,
+        0.0
+      ],
+      "termination": "success",
+      "pos_err_m": 0.116,
+      "yaw_err_rad": 0.0529,
+      "min_clearance_m": 0.9744,
+      "bumper_contacts": 0,
+      "path_length_m": 7.49,
+      "sim_time_s": 42.91,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 2,
+      "start": [
+        3.8,
+        0.0,
+        3.14
+      ],
+      "goal": [
+        -3.8,
+        0.0,
+        3.14
+      ],
+      "termination": "success",
+      "pos_err_m": 0.1236,
+      "yaw_err_rad": 0.002,
+      "min_clearance_m": 0.9742,
+      "bumper_contacts": 0,
+      "path_length_m": 7.48,
+      "sim_time_s": 40.39,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 3,
+      "start": [
+        -3.8,
+        3.0,
+        0.0
+      ],
+      "goal": [
+        3.8,
+        3.0,
+        0.0
+      ],
+      "termination": "success",
+      "pos_err_m": 0.0691,
+      "yaw_err_rad": 0.0013,
+      "min_clearance_m": 0.5795,
+      "bumper_contacts": 0,
+      "path_length_m": 7.537,
+      "sim_time_s": 40.78,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 4,
+      "start": [
+        3.8,
+        -3.0,
+        3.14
+      ],
+      "goal": [
+        -3.8,
+        -3.0,
+        3.14
+      ],
+      "termination": "nav2_failed",
+      "pos_err_m": 0.1593,
+      "yaw_err_rad": 0.0138,
+      "min_clearance_m": 0.51,
+      "bumper_contacts": 0,
+      "path_length_m": 7.45,
+      "sim_time_s": 40.78,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 5,
+      "start": [
+        0.0,
+        -3.2,
+        1.57
+      ],
+      "goal": [
+        0.0,
+        3.2,
+        1.57
+      ],
+      "termination": "success",
+      "pos_err_m": 0.0288,
+      "yaw_err_rad": 0.0342,
+      "min_clearance_m": 0.5527,
+      "bumper_contacts": 0,
+      "path_length_m": 6.396,
+      "sim_time_s": 38.86,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 6,
+      "start": [
+        0.0,
+        3.2,
+        -1.57
+      ],
+      "goal": [
+        0.0,
+        -3.2,
+        -1.57
+      ],
+      "termination": "success",
+      "pos_err_m": 0.1165,
+      "yaw_err_rad": 0.0156,
+      "min_clearance_m": 0.5746,
+      "bumper_contacts": 0,
+      "path_length_m": 6.293,
+      "sim_time_s": 33.68,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 7,
+      "start": [
+        -4.0,
+        -3.0,
+        1.57
+      ],
+      "goal": [
+        -4.0,
+        3.0,
+        1.57
+      ],
+      "termination": "success",
+      "pos_err_m": 0.1037,
+      "yaw_err_rad": 0.0472,
+      "min_clearance_m": 0.5751,
+      "bumper_contacts": 0,
+      "path_length_m": 5.966,
+      "sim_time_s": 33.58,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 8,
+      "start": [
+        4.0,
+        3.0,
+        -1.57
+      ],
+      "goal": [
+        4.0,
+        -3.0,
+        -1.57
+      ],
+      "termination": "success",
+      "pos_err_m": 0.1166,
+      "yaw_err_rad": 0.0386,
+      "min_clearance_m": 0.6761,
+      "bumper_contacts": 0,
+      "path_length_m": 5.884,
+      "sim_time_s": 33.57,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 9,
+      "start": [
+        -3.8,
+        0.0,
+        0.0
+      ],
+      "goal": [
+        0.0,
+        3.0,
+        1.57
+      ],
+      "termination": "success",
+      "pos_err_m": 0.0254,
+      "yaw_err_rad": 0.0457,
+      "min_clearance_m": 0.2121,
+      "bumper_contacts": 0,
+      "path_length_m": 5.415,
+      "sim_time_s": 35.0,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 10,
+      "start": [
+        -3.8,
+        0.0,
+        0.0
+      ],
+      "goal": [
+        0.0,
+        -3.0,
+        -1.57
+      ],
+      "termination": "success",
+      "pos_err_m": 0.0838,
+      "yaw_err_rad": 0.0361,
+      "min_clearance_m": 0.2161,
+      "bumper_contacts": 0,
+      "path_length_m": 5.357,
+      "sim_time_s": 35.37,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 11,
+      "start": [
+        3.8,
+        0.0,
+        3.14
+      ],
+      "goal": [
+        0.0,
+        3.0,
+        1.57
+      ],
+      "termination": "success",
+      "pos_err_m": 0.0675,
+      "yaw_err_rad": 0.0405,
+      "min_clearance_m": 0.2491,
+      "bumper_contacts": 0,
+      "path_length_m": 5.452,
+      "sim_time_s": 32.78,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 12,
+      "start": [
+        3.8,
+        0.0,
+        3.14
+      ],
+      "goal": [
+        0.0,
+        -3.0,
+        -1.57
+      ],
+      "termination": "success",
+      "pos_err_m": 0.122,
+      "yaw_err_rad": 0.0556,
+      "min_clearance_m": 0.2255,
+      "bumper_contacts": 0,
+      "path_length_m": 5.326,
+      "sim_time_s": 31.88,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 13,
+      "start": [
+        -3.8,
+        3.0,
+        0.0
+      ],
+      "goal": [
+        3.8,
+        0.0,
+        -1.57
+      ],
+      "termination": "success",
+      "pos_err_m": 0.0747,
+      "yaw_err_rad": 0.0394,
+      "min_clearance_m": 0.2604,
+      "bumper_contacts": 0,
+      "path_length_m": 8.567,
+      "sim_time_s": 50.28,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 14,
+      "start": [
+        -3.8,
+        -3.0,
+        0.0
+      ],
+      "goal": [
+        3.8,
+        0.0,
+        1.57
+      ],
+      "termination": "success",
+      "pos_err_m": 0.0556,
+      "yaw_err_rad": 0.0392,
+      "min_clearance_m": 0.2321,
+      "bumper_contacts": 0,
+      "path_length_m": 8.541,
+      "sim_time_s": 51.12,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 15,
+      "start": [
+        3.8,
+        3.0,
+        3.14
+      ],
+      "goal": [
+        -3.8,
+        0.0,
+        -1.57
+      ],
+      "termination": "success",
+      "pos_err_m": 0.1222,
+      "yaw_err_rad": 0.0322,
+      "min_clearance_m": 0.2343,
+      "bumper_contacts": 0,
+      "path_length_m": 8.495,
+      "sim_time_s": 50.17,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 16,
+      "start": [
+        3.8,
+        -3.0,
+        3.14
+      ],
+      "goal": [
+        -3.8,
+        0.0,
+        1.57
+      ],
+      "termination": "success",
+      "pos_err_m": 0.1168,
+      "yaw_err_rad": 0.0424,
+      "min_clearance_m": 0.2394,
+      "bumper_contacts": 0,
+      "path_length_m": 8.489,
+      "sim_time_s": 51.57,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 17,
+      "start": [
+        -4.0,
+        -3.0,
+        0.0
+      ],
+      "goal": [
+        4.0,
+        3.0,
+        0.0
+      ],
+      "termination": "success",
+      "pos_err_m": 0.0462,
+      "yaw_err_rad": 0.0358,
+      "min_clearance_m": 0.2184,
+      "bumper_contacts": 0,
+      "path_length_m": 10.911,
+      "sim_time_s": 63.29,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 18,
+      "start": [
+        4.0,
+        3.0,
+        3.14
+      ],
+      "goal": [
+        -4.0,
+        -3.0,
+        3.14
+      ],
+      "termination": "success",
+      "pos_err_m": 0.1226,
+      "yaw_err_rad": 0.0252,
+      "min_clearance_m": 0.2439,
+      "bumper_contacts": 0,
+      "path_length_m": 10.942,
+      "sim_time_s": 65.69,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 19,
+      "start": [
+        -4.0,
+        3.0,
+        0.0
+      ],
+      "goal": [
+        4.0,
+        -3.0,
+        0.0
+      ],
+      "termination": "success",
+      "pos_err_m": 0.0587,
+      "yaw_err_rad": 0.0555,
+      "min_clearance_m": 0.1745,
+      "bumper_contacts": 0,
+      "path_length_m": 10.961,
+      "sim_time_s": 67.09,
+      "rtf": 1.0
+    },
+    {
+      "episode_id": 20,
+      "start": [
+        4.0,
+        -3.0,
+        3.14
+      ],
+      "goal": [
+        -4.0,
+        3.0,
+        3.14
+      ],
+      "termination": "success",
+      "pos_err_m": 0.0945,
+      "yaw_err_rad": 0.045,
+      "min_clearance_m": 0.2262,
+      "bumper_contacts": 0,
+      "path_length_m": 10.928,
+      "sim_time_s": 64.46,
+      "rtf": 1.0
+    }
+  ]
+}

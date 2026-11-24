@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="dev_warehouse">
+    <include><uri>model://ground_plane</uri></include>
+    <include><uri>model://sun</uri></include>
+    <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so">
+      <ros><namespace>/gazebo</namespace></ros>
+      <update_rate>50.0</update_rate>
+    </plugin>
+    <physics type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+    <model name="wall_north"><static>true</static><pose>0.0 4.1 0.5 0 0 0</pose>
+      <link name="l"><collision name="c"><geometry><box><size>10.4 0.2 1.0</size></box></geometry></collision>
+      <visual name="v"><geometry><box><size>10.4 0.2 1.0</size></box></geometry></visual></link></model>
+    <model name="wall_south"><static>true</static><pose>0.0 -4.1 0.5 0 0 0</pose>
+      <link name="l"><collision name="c"><geometry><box><size>10.4 0.2 1.0</size></box></geometry></collision>
+      <visual name="v"><geometry><box><size>10.4 0.2 1.0</size></box></geometry></visual></link></model>
+    <model name="wall_east"><static>true</static><pose>5.1 0.0 0.5 0 0 0</pose>
+      <link name="l"><collision name="c"><geometry><box><size>0.2 8.0 1.0</size></box></geometry></collision>
+      <visual name="v"><geometry><box><size>0.2 8.0 1.0</size></box></geometry></visual></link></model>
+    <model name="wall_west"><static>true</static><pose>-5.1 0.0 0.5 0 0 0</pose>
+      <link name="l"><collision name="c"><geometry><box><size>0.2 8.0 1.0</size></box></geometry></collision>
+      <visual name="v"><geometry><box><size>0.2 8.0 1.0</size></box></geometry></visual></link></model>
+    <model name="rack_nw"><static>true</static><pose>-2.0 1.8 0.5 0 0 0</pose>
+      <link name="l"><collision name="c"><geometry><box><size>2.2 0.8 1.0</size></box></geometry></collision>
+      <visual name="v"><geometry><box><size>2.2 0.8 1.0</size></box></geometry></visual></link></model>
+    <model name="rack_ne"><static>true</static><pose>2.0 1.8 0.5 0 0 0</pose>
+      <link name="l"><collision name="c"><geometry><box><size>2.2 0.8 1.0</size></box></geometry></collision>
+      <visual name="v"><geometry><box><size>2.2 0.8 1.0</size></box></geometry></visual></link></model>
+    <model name="rack_sw"><static>true</static><pose>-2.0 -1.8 0.5 0 0 0</pose>
+      <link name="l"><collision name="c"><geometry><box><size>2.2 0.8 1.0</size></box></geometry></collision>
+      <visual name="v"><geometry><box><size>2.2 0.8 1.0</size></box></geometry></visual></link></model>
+    <model name="rack_se"><static>true</static><pose>2.0 -1.8 0.5 0 0 0</pose>
+      <link name="l"><collision name="c"><geometry><box><size>2.2 0.8 1.0</size></box></geometry></collision>
+      <visual name="v"><geometry><box><size>2.2 0.8 1.0</size></box></geometry></visual></link></model>
+  </world>
+</sdf>

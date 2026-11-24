@@ -1,10 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
 project(amr_simulation)
-
 find_package(ament_cmake REQUIRED)
-
-install(DIRECTORY worlds launch
-  DESTINATION share/amr_simulation
-)
-
+install(DIRECTORY worlds launch maps DESTINATION share/amr_simulation)
 ament_package()

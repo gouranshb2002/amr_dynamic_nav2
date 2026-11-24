@@ -52,9 +52,6 @@ class CmdVelWatchdog(Node):
                 self.get_logger().info(f'Stale cmd_vel ({elapsed:.3f}s > {self.timeout_sec:.3f}s); stopping robot.')
                 self.timed_out = True
             self.pub.publish(Twist())
-        else:
-            self.pub.publish(self.last_cmd)
-
 def main(args=None):
     rclpy.init(args=args)
     node = CmdVelWatchdog()
@@ -63,9 +60,11 @@ def main(args=None):
     except KeyboardInterrupt:
         pass
     finally:
-        node.pub.publish(Twist())
+        if rclpy.ok():
+            node.pub.publish(Twist())
         node.destroy_node()
-        rclpy.shutdown()
+        if rclpy.ok():
+            rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
