@@ -13,5 +13,5 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    entry_points={'console_scripts': ['run_static_pilot = amr_benchmark.run_static_pilot:main']},
+    entry_points={'console_scripts': ['run_static_pilot = amr_benchmark.run_static_pilot:main', 'run_dynamic_benchmark = amr_benchmark.run_dynamic_benchmark:main']},
 )

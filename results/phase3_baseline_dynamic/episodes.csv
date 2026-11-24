@@ -1,0 +1,13 @@
+episode_id,type,termination,pos_err_m,yaw_err_rad,min_clearance_m,min_dyn_clearance_m,bumper_contacts,path_length_m,sim_time_s,rtf
+1,cross_perp,success,0.078,0.0401,0.0917,0.0917,0,7.557,43.5,1.0
+2,cross_perp,success,0.1362,0.0446,0.1252,0.1252,0,7.484,42.68,1.0
+3,head_on,collision,0.0856,0.1018,0.0,0.0,2,7.72,45.93,1.0
+4,head_on,success,0.1402,0.0586,0.0109,0.0109,0,7.657,44.63,1.0
+5,blind_corner,timeout,1.659,1.5708,0.0334,0.7733,0,5.898,120.04,1.0
+6,blind_corner,collision,0.4196,0.3003,0.0,0.0,0,5.171,28.6,1.0
+7,dual_cross,collision,3.1694,0.011,0.0,0.0,2,4.451,23.32,1.0
+8,dual_cross,collision,3.221,0.0086,0.0,0.0,0,4.383,22.63,1.0
+9,aisle_merge,collision,0.0905,0.2537,0.0,0.0,0,6.329,33.48,1.0
+10,aisle_merge,collision,0.1605,0.1623,0.0,0.0,0,6.27,33.35,1.0
+11,diagonal_rush,collision,4.1941,0.491,0.0,0.0,0,7.121,37.09,1.0
+12,diagonal_rush,collision,5.1568,0.003,0.0144,0.0144,2,5.588,30.11,1.0
